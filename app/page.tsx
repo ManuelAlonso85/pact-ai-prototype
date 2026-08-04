@@ -298,7 +298,7 @@ export default function Home() {
 
       <footer>
         <p>PACT AI prototype · Built with synthetic data for portfolio review</p>
-        <a href="https://github.com/" target="_blank" rel="noreferrer">View repository</a>
+        <a href="https://github.com/ManuelAlonso85/pact-ai-prototype" target="_blank" rel="noreferrer">View repository</a>
       </footer>
     </main>
   );
@@ -324,4 +324,3 @@ function Phone({ name, role, messages }: { name: string; role: string; messages:
     </section>
   );
 }
-

@@ -3,10 +3,7 @@
 !.env.example
 node_modules/
 .next/
-.vinext/
-dist/
-.wrangler/
-.open-next/
+out/
 .supabase/
 *.log
 *.db

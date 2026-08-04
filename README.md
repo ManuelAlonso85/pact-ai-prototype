@@ -2,7 +2,7 @@
 
 An SMS-first accountability product prototype for two people who want more structure than a casual promise without the friction of another app.
 
-[Try the live prototype](https://pact-ai-prototype.manuel-a-ulloa.chatgpt.site) · [Read the full product case study](CASE_STUDY.md) · [View the architecture](docs/architecture.md)
+[Try the live prototype](https://manuelalonso85.github.io/pact-ai-prototype/) · [Read the full product case study](CASE_STUDY.md) · [View the architecture](docs/architecture.md)
 
 ![PACT AI interactive accountability prototype](public/og.png)
 
@@ -62,4 +62,3 @@ Open the local address printed in the terminal. Validate a production build with
 ## Portfolio disclosure
 
 This is a sanitized public artifact derived from a private product project. It intentionally omits credentials, private configuration, production data, participant information, deployment records, internal operating documents, and full source history. Product claims are scoped in the case study; unvalidated customer assumptions are not presented as research findings.
-

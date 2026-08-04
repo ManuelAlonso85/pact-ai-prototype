@@ -6,7 +6,7 @@ PACT AI explores whether two people can form and complete a more trustworthy acc
 
 My role in this project was primarily product-oriented: framing the problem, defining the user and safety boundary, turning user needs into requirements, prioritizing the MVP, mapping edge cases, specifying workflows, evaluating tradeoffs, and using prototypes and implementation feedback to refine the product.
 
-[Launch the interactive prototype](https://pact-ai-prototype.manuel-a-ulloa.chatgpt.site)
+[Launch the interactive prototype](https://manuelalonso85.github.io/pact-ai-prototype/)
 
 ## 1. The problem I chose to explore
 
@@ -216,4 +216,3 @@ No portfolio metric should be presented as a real result without supporting evid
 ## 14. Public-repository disclosure
 
 This case study intentionally omits credentials, production configuration, private user or tester information, message logs, proof media, database exports, deployment procedures, private documents, and full source history. Examples use synthetic names and data. Operational lessons are summarized at the product level so the decision-making process is visible without exposing the private system.
-
