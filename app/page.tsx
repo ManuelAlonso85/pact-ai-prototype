@@ -218,7 +218,12 @@ export default function Home() {
           <span>PACT AI</span>
         </a>
         <div className="prototype-chip"><span /> Interactive prototype · synthetic data</div>
-        <a className="text-link" href="#product-thinking">Product thinking</a>
+        <nav className="header-actions" aria-label="Primary navigation">
+          <a className="text-link" href="#product-thinking">Product thinking</a>
+          <a className="repository-link" href="https://github.com/ManuelAlonso85/pact-ai-prototype" target="_blank" rel="noreferrer">
+            View repository <span aria-hidden="true">↗</span>
+          </a>
+        </nav>
       </header>
 
       <section className="hero" id="top">
@@ -297,7 +302,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <p>PACT AI prototype · Built with synthetic data for portfolio review</p>
+        <p>PACT AI Prototype</p>
         <a href="https://github.com/ManuelAlonso85/pact-ai-prototype" target="_blank" rel="noreferrer">View repository</a>
       </footer>
     </main>
