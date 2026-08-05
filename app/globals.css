@@ -60,6 +60,8 @@ h1 { max-width: 900px; margin: 18px auto; font-size: clamp(46px, 7vw, 86px); lin
 .primary-button:hover { transform: translateY(-2px); box-shadow: 0 9px 0 #0a3022; }
 .primary-button:active { transform: translateY(4px); box-shadow: 0 3px 0 #0a3022; }
 .primary-button:disabled { opacity: .45; cursor: not-allowed; transform: none; }
+.secondary-button { width: 100%; margin-top: 14px; padding: 12px 16px; border: 1px solid var(--line); border-radius: 12px; background: transparent; color: var(--green); font-weight: 700; cursor: pointer; }
+.secondary-button:hover { background: white; }
 
 .phones { display: flex; justify-content: center; align-items: center; gap: 34px; padding: 36px; background-color: #dfe6dd; background-image: radial-gradient(rgba(20,76,56,.12) 1px, transparent 1px); background-size: 16px 16px; }
 .phone { width: 286px; height: 590px; display: flex; flex-direction: column; background: #f8f8f8; border: 7px solid #17251f; border-radius: 36px; box-shadow: 0 20px 35px rgba(23,37,31,.18); overflow: hidden; }
@@ -79,6 +81,19 @@ h1 { max-width: 900px; margin: 18px auto; font-size: clamp(46px, 7vw, 86px); lin
 .composer { margin: 8px; padding: 5px 5px 5px 12px; border: 1px solid #d3d3d8; border-radius: 999px; display: flex; align-items: center; justify-content: space-between; color: #999; font-size: 10px; }
 .composer button { width: 24px; height: 24px; border: 0; border-radius: 50%; background: #d6d6da; color: white; }
 @keyframes arrive { from { opacity: 0; transform: translateY(6px); } }
+
+.formats { max-width: 1160px; margin: 0 auto; padding: 20px 28px 100px; }
+.formats-heading { max-width: 760px; }
+.formats-heading h2 { margin: 8px 0 16px; font-size: clamp(32px, 4vw, 52px); letter-spacing: -.05em; line-height: 1.05; }
+.formats-heading > p:last-child { max-width: 650px; color: var(--muted); font-size: 16px; line-height: 1.6; }
+.format-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 40px; }
+.format-card { position: relative; min-height: 210px; padding: 28px; border: 1px solid rgba(23,37,31,.14); border-radius: 18px; background: rgba(255,255,255,.48); }
+.format-card.featured { border-color: var(--green); background: var(--paper); box-shadow: 0 12px 35px rgba(34,48,41,.08); }
+.format-tags { display: flex; gap: 8px; flex-wrap: wrap; }
+.format-tags span { padding: 6px 9px; border-radius: 999px; background: rgba(20,76,56,.08); color: var(--green); font-family: var(--font-geist-mono), monospace; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.format-card h3 { margin: 26px 0 10px; font-size: 21px; letter-spacing: -.03em; }
+.format-card p { margin: 0; color: var(--muted); line-height: 1.6; font-size: 14px; }
+.format-card > strong { display: block; margin-top: 20px; color: var(--green); font-size: 12px; }
 
 .thinking { max-width: 1160px; margin: 0 auto; padding: 40px 28px 110px; }
 .thinking > div:first-child { max-width: 680px; }
@@ -107,6 +122,7 @@ footer a { color: var(--lime); }
   .demo-header { align-items: flex-start; gap: 20px; }
   .phones { justify-content: flex-start; overflow-x: auto; scroll-snap-type: x mandatory; padding: 28px 20px; }
   .phone { min-width: 286px; scroll-snap-align: center; }
+  .format-grid { grid-template-columns: 1fr; }
   .decision-grid { grid-template-columns: 1fr; }
   footer { flex-direction: column; }
 }

@@ -28,11 +28,22 @@ This is a hypothesis—not a validated market claim.
 The initial user is not “everyone who wants motivation.” I narrowed the beta audience to:
 
 - Two adults who already know and trust each other.
-- One person making a repeated behavioral commitment and one trusted partner reviewing it.
+- One or both people making a repeated behavioral commitment, with each participant reviewing the other person's proof when applicable.
 - People comfortable using SMS/MMS for a short, structured experiment.
 - Low-stakes situations that do not require payment custody or formal dispute resolution.
 
 This deliberately excludes strangers, minors, high-value agreements, automated collections, and users who need the product to arbitrate disputes.
+
+### Four supported pact formats
+
+Two product decisions create four possible combinations:
+
+| | Specific days | Flexible weekly |
+|---|---|---|
+| One-Way | The creator submits proof on named weekdays; the partner reviews. | The creator completes a target on any eligible days Monday through Sunday. |
+| Two-Way | Both participants submit and review proof, and each can choose different weekdays. | Both participants work toward the same weekly target and review each other's proof. |
+
+The interactive prototype features **Two-Way + Specific days** because it demonstrates the most important two-sided behaviors without requiring the additional period and settlement rules of Flexible Weekly. The other formats are summarized in the interface rather than expanded into four separate demos.
 
 ## 3. Customer discovery: what is known and unknown
 
@@ -157,13 +168,14 @@ The public [architecture diagram](docs/architecture.md) shows the system boundar
 
 ## 9. What the prototype demonstrates
 
-The interactive prototype models the core happy path from both perspectives:
+The interactive prototype models a Mutual Pact from both perspectives:
 
-- The creator defines a goal, cadence, and stake.
-- The partner receives the same terms and accepts.
-- The creator receives a due-today reminder and submits synthetic proof.
-- The partner approves it.
-- Both people receive an understandable outcome.
+- Alex defines the shared goal, Alex's commitment days, and the stake.
+- Jordan receives the invitation and chooses separate commitment days.
+- Both participants receive personalized terms and consent before activation.
+- Alex submits synthetic proof and Jordan reviews it.
+- On Jordan's scheduled day, the roles reverse: Jordan submits and Alex reviews.
+- A later missed-day example identifies the date, stake, unsettled balance, and offset rule.
 
 It is intentionally a simulation. Browser-local state replaces accounts, SMS delivery, media storage, scheduling, and the production database. This makes the portfolio demo safe to share while preserving the product logic recruiters need to evaluate.
 

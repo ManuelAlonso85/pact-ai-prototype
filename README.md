@@ -21,11 +21,12 @@ This portfolio project focuses on product judgment:
 
 The safe browser prototype lets you play both participants:
 
-1. Define a goal, schedule, and stake.
-2. Send and accept the pact invitation.
-3. Submit synthetic proof.
-4. Approve it as the accountability partner.
-5. See the explainable outcome and reset the flow.
+1. Define a shared goal, Alex's schedule, and the stake.
+2. Invite Jordan and let Jordan choose separate commitment days.
+3. Record both participants' consent.
+4. Submit and review Alex's synthetic proof.
+5. Reverse the roles for Jordan's scheduled day.
+6. See an explainable success and missed-day outcome.
 
 The demo uses synthetic browser-local state. It sends no SMS, processes no payment, connects to no production system, and collects no personal data.
 
@@ -36,6 +37,8 @@ The demo uses synthetic browser-local state. It sends no SMS, processes no payme
 | Problem | Informal accountability breaks down when terms, evidence, review, and consequences are ambiguous. |
 | Initial user | Two adults who already know and trust each other and want a short, structured commitment. |
 | Product hypothesis | SMS lowers adoption friction while a constrained workflow improves clarity and follow-through. |
+| Featured demo | Two-Way + Specific days: both people prove on their own schedules and review each other. |
+| Broader product model | One-Way or Two-Way pacts using Specific days or Flexible weekly targets. |
 | MVP | Create, consent, remind, submit proof, review, evaluate, check status, and cancel safely. |
 | Deliberately deferred | Money movement, dispute resolution, conversational AI, multiple simultaneous pacts, and broad timezone support. |
 | Prototype boundary | Interactive simulation only; no live messaging, accounts, production data, or credentials. |
